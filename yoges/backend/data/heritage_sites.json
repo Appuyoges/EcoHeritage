@@ -1,0 +1,597 @@
+[
+    {
+        "id": "taj_mahal",
+        "name": "Taj Mahal",
+        "location": "Agra",
+        "state": "Uttar Pradesh",
+        "category": "Mausoleum",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Mughal Architecture",
+            "UNESCO World Heritage",
+            "River Yamuna",
+            "White Marble",
+            "Gardens"
+        ],
+        "description": "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife.",
+        "best_time": "Nov-Feb (Sunrise is best)",
+        "specialties": [
+            "Agra Pethas",
+            "Mughlai Kebabs",
+            "Marble Inlay Art"
+        ]
+    },
+    {
+        "id": "qutub_minar",
+        "name": "Qutub Minar",
+        "location": "Delhi",
+        "state": "Delhi",
+        "category": "Monument",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Indo-Islamic Architecture",
+            "UNESCO World Heritage",
+            "Minaret",
+            "History"
+        ],
+        "description": "The highest brick minaret in the world, built in the early 13th century a few kilometres south of Delhi.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Delhi Street Food",
+            "Chaat",
+            "Historical Walks"
+        ]
+    },
+    {
+        "id": "hampi",
+        "name": "Hampi Group of Monuments",
+        "location": "Hampi",
+        "state": "Karnataka",
+        "category": "Ruins",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "Vijayanagara Empire",
+            "Temples",
+            "Ruins",
+            "UNESCO World Heritage",
+            "River Tungabhadra"
+        ],
+        "description": "The austere, grandiose site of Hampi was the last capital of the last great Hindu Kingdom of Vijayanagar.",
+        "best_time": "Oct-Mar (Hampi Utsav in Nov)",
+        "specialties": [
+            "Lambani Embroidery",
+            "Banana Fiber Crafts",
+            "Bouldering"
+        ]
+    },
+    {
+        "id": "ellora_caves",
+        "name": "Ellora Caves",
+        "location": "Aurangabad",
+        "state": "Maharashtra",
+        "category": "Caves",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Rock-cut Architecture",
+            "Buddhism",
+            "Hinduism",
+            "Jainism",
+            "UNESCO World Heritage",
+            "Kailasa Temple"
+        ],
+        "description": "These 34 monasteries and temples, extending over more than 2 km, were dug side by side in the wall of a high basalt cliff.",
+        "best_time": "Nov-Mar",
+        "specialties": [
+            "Paithani Silk",
+            "Himroo Shawls",
+            "Naan Qalia"
+        ]
+    },
+    {
+        "id": "konark_sun_temple",
+        "name": "Konark Sun Temple",
+        "location": "Konark",
+        "state": "Odisha",
+        "category": "Temple",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "Kalinga Architecture",
+            "Sun God",
+            "Chariot",
+            "UNESCO World Heritage",
+            "Stone Carving"
+        ],
+        "description": "On the shores of the Bay of Bengal, bathed in the rays of the rising sun, the temple at Konark is a monumental representation of the sun god Surya's chariot.",
+        "best_time": "Sep-Mar (Dance Festival in Dec)",
+        "specialties": [
+            "Stone Carvings",
+            "Chhena Poda",
+            "Pattachitra Art"
+        ]
+    },
+    {
+        "id": "kaziranga",
+        "name": "Kaziranga National Park",
+        "location": "Golaghat",
+        "state": "Assam",
+        "category": "Nature",
+        "sustainability_metrics": {
+            "carbon_footprint": "Very Low",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Wildlife",
+            "Rhino",
+            "Nature",
+            "UNESCO World Heritage",
+            "Biodiversity"
+        ],
+        "description": "In the heart of Assam, this park is one of the last areas in eastern India undisturbed by a human presence.",
+        "best_time": "Nov-Apr",
+        "specialties": [
+            "Elephant Safari",
+            "Assamese Thali",
+            "Muga Silk"
+        ]
+    },
+    {
+        "id": "mahabalipuram",
+        "name": "Group of Monuments at Mahabalipuram",
+        "location": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "category": "Temple",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "Pallava Architecture",
+            "Rock-cut",
+            "Shore Temple",
+            "UNESCO World Heritage",
+            "Beach"
+        ],
+        "description": "This group of sanctuaries, founded by the Pallava kings, was carved out of rock along the Coromandel coast in the 7th and 8th centuries.",
+        "best_time": "Nov-Feb",
+        "specialties": [
+            "Stone Sculptures",
+            "Seafood",
+            "Beach Festivals"
+        ]
+    },
+    {
+        "id": "chola_temples",
+        "name": "Great Living Chola Temples",
+        "location": "Thanjavur",
+        "state": "Tamil Nadu",
+        "category": "Temple",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Dravidian Architecture",
+            "Chola Dynasty",
+            "Living Heritage",
+            "UNESCO World Heritage",
+            "Brihadisvara Temple"
+        ],
+        "description": "The Great Living Chola Temples were built by kings of the Chola Empire, which stretched over all of south India and the neighbouring islands.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Tanjore Paintings",
+            "Bronze Statues",
+            "Thanjavur Dolls"
+        ]
+    },
+    {
+        "id": "ajanta_caves",
+        "name": "Ajanta Caves",
+        "location": "Aurangabad",
+        "state": "Maharashtra",
+        "category": "Caves",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Buddhist Art",
+            "Paintings",
+            "Rock-cut",
+            "UNESCO World Heritage",
+            "Ancient"
+        ],
+        "description": "The first Buddhist cave monuments at Ajanta date from the 2nd and 1st centuries B.C. The paintings and sculptures are masterpieces of Buddhist religious art.",
+        "best_time": "Nov-Mar",
+        "specialties": [
+            "Buddhist Paintings",
+            "Aurangabad Silk",
+            "Local Handicrafts"
+        ]
+    },
+    {
+        "id": "sundarbans",
+        "name": "Sundarbans National Park",
+        "location": "South 24 Parganas",
+        "state": "West Bengal",
+        "category": "Nature",
+        "sustainability_metrics": {
+            "carbon_footprint": "Very Low",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Mangroves",
+            "Royal Bengal Tiger",
+            "Delta",
+            "UNESCO World Heritage",
+            "Nature"
+        ],
+        "description": "The Sundarbans covers 10,000 km2 of land and water in the Ganges delta. It contains the world's largest area of mangrove forests.",
+        "best_time": "Sep-Mar",
+        "specialties": [
+            "Honey",
+            "Mangrove Tours",
+            "Local Fish Curry"
+        ]
+    },
+    {
+        "id": "humayuns_tomb",
+        "name": "Humayun's Tomb",
+        "location": "Delhi",
+        "state": "Delhi",
+        "category": "Mausoleum",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Mughal Architecture",
+            "Garden Tomb",
+            "UNESCO World Heritage",
+            "History"
+        ],
+        "description": "This tomb, built in 1570, is of particular cultural significance as it was the first garden-tomb on the Indian subcontinent.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Mughlai Cuisine",
+            "Historical Photography",
+            "Garden Walks"
+        ]
+    },
+    {
+        "id": "fatehpur_sikri",
+        "name": "Fatehpur Sikri",
+        "location": "Agra",
+        "state": "Uttar Pradesh",
+        "category": "City",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "Medium",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Mughal Architecture",
+            "Ghost City",
+            "Buland Darwaza",
+            "UNESCO World Heritage"
+        ],
+        "description": "Built during the second half of the 16th century by the Emperor Akbar, Fatehpur Sikri (the City of Victory) was the capital of the Mughal Empire for only some 10 years.",
+        "best_time": "Nov-Feb",
+        "specialties": [
+            "Mughal History",
+            "Red Sandstone Art",
+            "Local Sweets"
+        ]
+    },
+    {
+        "id": "khajuraho",
+        "name": "Khajuraho Group of Monuments",
+        "location": "Chhatarpur",
+        "state": "Madhya Pradesh",
+        "category": "Temple",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "Nagara Architecture",
+            "Erotic Sculptures",
+            "Chandela Dynasty",
+            "UNESCO World Heritage"
+        ],
+        "description": "The temples at Khajuraho were built during the Chandela dynasty, which reached its apogee between 950 and 1050.",
+        "best_time": "Nov-Feb (Dance Festival in Feb)",
+        "specialties": [
+            "Bundeli Gosht",
+            "Bafla",
+            "Stone Sculptures"
+        ]
+    },
+    {
+        "id": "elephanta_caves",
+        "name": "Elephanta Caves",
+        "location": "Mumbai",
+        "state": "Maharashtra",
+        "category": "Caves",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "Medium",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Shiva",
+            "Rock-cut",
+            "Island",
+            "UNESCO World Heritage",
+            "Sculpture"
+        ],
+        "description": "The 'City of Caves', on an island in the Sea of Oman close to Bombay, contains a collection of rock art linked to the cult of Shiva.",
+        "best_time": "Nov-Mar",
+        "specialties": [
+            "Ferry Rides",
+            "Island Seafood",
+            "Rock Art"
+        ]
+    },
+    {
+        "id": "rani_ki_vav",
+        "name": "Rani-ki-Vav (The Queen's Stepwell)",
+        "location": "Patan",
+        "state": "Gujarat",
+        "category": "Stepwell",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Stepwell",
+            "Water Management",
+            "Sculpture",
+            "UNESCO World Heritage",
+            "Architecture"
+        ],
+        "description": "Rani-ki-Vav, on the banks of the Saraswati River, was initially built as a memorial to a king in the 11th century AD.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Patola Sarees",
+            "Gujarati Thali",
+            "Intricate Carvings"
+        ]
+    },
+    {
+        "id": "hill_forts_rajasthan",
+        "name": "Hill Forts of Rajasthan",
+        "location": "Rajasthan",
+        "state": "Rajasthan",
+        "category": "Fort",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "Fort Architecture",
+            "Rajput",
+            "Defense",
+            "UNESCO World Heritage",
+            "History"
+        ],
+        "description": "The serial site, situated in the state of Rajasthan, includes six majestic forts in Chittorgarh; Kumbhalgarh; Sawai Madhopur; Jhalawar; Jaipur; and Jaisalmer.",
+        "best_time": "Nov-Feb",
+        "specialties": [
+            "Rajputana Cuisine",
+            "Handicrafts",
+            "Fort Camping"
+        ]
+    },
+    {
+        "id": "nalanda",
+        "name": "Nalanda Mahavihara",
+        "location": "Nalanda",
+        "state": "Bihar",
+        "category": "Ruins",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "Medium",
+            "community_impact": "High"
+        },
+        "features": [
+            "University",
+            "Buddhism",
+            "Learning",
+            "UNESCO World Heritage",
+            "Ruins"
+        ],
+        "description": "The Nalanda Mahavihara site is in the State of Bihar, in north-eastern India. It comprises the archaeological remains of a monastic and scholastic institution.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Bihari Thali",
+            "Litti Chokha",
+            "Ancient Manuscripts"
+        ]
+    },
+    {
+        "id": "western_ghats",
+        "name": "Western Ghats",
+        "location": "Western India",
+        "state": "Multiple",
+        "category": "Nature",
+        "sustainability_metrics": {
+            "carbon_footprint": "Very Low",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Biodiversity",
+            "Mountains",
+            "Forests",
+            "UNESCO World Heritage",
+            "Nature"
+        ],
+        "description": "Older than the Himalaya mountains, the mountain chain of the Western Ghats represents geomorphic features of immense importance with unique biophysical and ecological processes.",
+        "best_time": "Jun-Sep (Monsoon is magical)",
+        "specialties": [
+            "Spices",
+            "Tea & Coffee",
+            "Eco-Trekking"
+        ]
+    },
+    {
+        "id": "bodh_gaya",
+        "name": "Mahabodhi Temple Complex",
+        "location": "Bodh Gaya",
+        "state": "Bihar",
+        "category": "Temple",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Buddhism",
+            "Enlightenment",
+            "Pilgrimage",
+            "UNESCO World Heritage",
+            "Bodhi Tree"
+        ],
+        "description": "The Mahabodhi Temple Complex is one of the four holy sites related to the life of the Lord Buddha, and particularly to the attainment of Enlightenment.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Meditation Retreats",
+            "Buddhist Art",
+            "Local Thali"
+        ]
+    },
+    {
+        "id": "sanchi",
+        "name": "Buddhist Monuments at Sanchi",
+        "location": "Sanchi",
+        "state": "Madhya Pradesh",
+        "category": "Monument",
+        "sustainability_metrics": {
+            "carbon_footprint": "Low",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Stupa",
+            "Buddhism",
+            "Ashoka",
+            "UNESCO World Heritage",
+            "Ancient"
+        ],
+        "description": "On a hill overlooking the plain and about 40 km from Bhopal, the site of Sanchi comprises a group of Buddhist monuments (monolithic pillars, palaces, temples and monasteries).",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Stone Reliefs",
+            "Bhopali Cuisine",
+            "History Tours"
+        ]
+    },
+    {
+        "id": "red_fort",
+        "name": "Red Fort",
+        "location": "Delhi",
+        "state": "Delhi",
+        "category": "Fort",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Mughal Architecture",
+            "UNESCO World Heritage",
+            "Red Sandstone",
+            "Independence Day",
+            "Fort"
+        ],
+        "description": "The Red Fort Complex was built as the palace fort of Shahjahanabad - the new capital of the fifth Mughal Emperor of India, Shah Jahan.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Light and Sound Show",
+            "Meena Bazaar",
+            "Mughal History"
+        ]
+    },
+    {
+        "id": "agra_fort",
+        "name": "Agra Fort",
+        "location": "Agra",
+        "state": "Uttar Pradesh",
+        "category": "Fort",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "Medium"
+        },
+        "features": [
+            "Mughal Architecture",
+            "UNESCO World Heritage",
+            "Red Sandstone",
+            "Palaces",
+            "River View"
+        ],
+        "description": "Near the gardens of the Taj Mahal stands the important 16th-century Mughal monument known as the Red Fort of Agra.",
+        "best_time": "Nov-Feb",
+        "specialties": [
+            "Diwan-i-Am",
+            "Diwan-i-Khas",
+            "River Yamuna Views"
+        ]
+    },
+    {
+        "id": "amber_fort",
+        "name": "Amber Fort",
+        "location": "Jaipur",
+        "state": "Rajasthan",
+        "category": "Fort",
+        "sustainability_metrics": {
+            "carbon_footprint": "Medium",
+            "preservation_status": "High",
+            "community_impact": "High"
+        },
+        "features": [
+            "Rajput Architecture",
+            "UNESCO World Heritage",
+            "Stepwell",
+            "Hilltop",
+            "Mirror Palace"
+        ],
+        "description": "Amber Fort is known for its artistic style elements. With its large ramparts and series of gates and cobbled paths, the fort overlooks Maota Lake.",
+        "best_time": "Oct-Mar",
+        "specialties": [
+            "Elephant Ride (Ethical?)",
+            "Sheesh Mahal",
+            "Light Show"
+        ]
+    }
+]

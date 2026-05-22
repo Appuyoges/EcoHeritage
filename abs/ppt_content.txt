@@ -1,0 +1,226 @@
+
+=== SLIDE 1 ===
+Review  I Date : 24ʳᵈ  JAN 2026
+DEPARTMENT ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING 
+PROJECT PHASE II – REVIEW 1 PRESENTATION
+Batch Members :
+     1. HEENA MEHJABEEN K (221501043)
+     2. JAYA KARTHICK R (221501507)
+     3. YOGESWARAN S (221501511)
+Under the Guidance Of
+
+Dr.S.Poonkuzhali ,
+ Professor
+      
+SUSTAINABLE HERITAGE TOURISM IN INDIA: AGENTIC MULTI-AGENT AI FOR CONTEXT-AWARE, CARBON-MINIMIZED ITINERARY OPTIMIZATION
+
+=== SLIDE 2 ===
+Domain: 
+              Artificial Intelligence
+
+Sub-Domains: 
+              • Multi-Agent Systems
+              • Intelligent Recommendation Systems
+              • Swarm Intelligence
+              • Optimization Algorithms
+              • Sustainable AI
+
+Application Area: 
+              Smart Tourism, Sustainable Travel Planning
+ 
+
+=== SLIDE 3 ===
+
+=== SLIDE 4 ===
+High carbon emissions from travel – Needs eco-friendly planning.
+Lack of smart, real-time itineraries – Most plans ignore crowds and sustainability.
+Missed local eco friendly experiences – Tourists need better cultural immersion.
+Need for responsible tourism – AI can guide smarter, greener travel.
+
+=== SLIDE 5 ===
+Paper Title | Author & year | Methodology | Inference | limitations
+Metaverse 3C framework Concept, Components, and Challenges in the travel and tourism domain | Poonkuzhali, 2023 | The study aimed to interpret the metaverse’s role in creating immersive virtual tourism experiences through technologies such as VR, AR, and blockchain. A conceptual and analytical methodology identified core technical components. | Results highlighted the framework’s capacity to enhance user immersion and interactivity, yet high infrastructural cost and interoperability issues limit adoption. | Prototype stage with limited field validation and depends on availability/quality of real-time context data (queues, sensor feeds)
+Sentiment Classification of Indian Tourist Reviews Using Deep Learning Techniques | G. Ratnakanth and
+ S. Poonkuzhali, 2023 | Sentiment Analysis accuracy was improved for multilingual tourism data through hybrid CNN-LSTM networks | The model produced higher classification precision compared to traditional text-based approaches. The study contributes to developing culturally adaptive models for tourism analytics. | Limited linguistic resources and data imbalance were observed; thus, the model lacked in resources
+Indian Tourist Recommendation System Using Collaborative Filtering and Deep Autoencoder.
+ | G.RatnaKanth and S.Poonkuzhal, 2023 | The approach extracted latent relations between visitors and destinations from historical datasets. Results revealed higher recommendation accuracy and adaptability to dynamic trends. | Results showed higher recommendation and adaptability to dynamic trends when compared with standard matrix factorization. | Cold-Start problems and sparse user data were constraints. It only offers regional tourism recommendations
+Agent-Based Modelling for Sustainable Tourism | Stefanie Wallinger, 2022 | Survey + case studies demonstrating agent-based models (ABM) to simulate visitor flows, stakeholder behaviors, and policy interventions at destinations. | ABM is effective for exploring emergent crowding patterns and testing management interventions (time-slots, capacity limits, alternative routing). | ABM requires careful calibration and detailed local data; transferability between sites is limited without re-parameterization.
+]survey on personalized itinerary recommendation: From optimisation to deep learning
+ | Sajal Halder, 2023 | Systematic survey of POI/itinerary recommendation techniques — sequence modeling, constraint solving, hybrid knowledge-based + ML approaches. | Combining temporal user behavior models with constraint optimization yields the best balance between personalization and feasibility for itinerary generation. | Gaps remain in integrating real-time sustainability signals (carbon, congestion) and in end-to-end deployment case studies.
+
+=== SLIDE 6 ===
+Paper Title | Author & Year | Methodology | Inference | Limitations
+Enhancing tourism recommender systems for sustainable city trips using retrieval-augmented generation
+ | Ashmi Banerjee, 2024 | Augments Retrieval-Augmented Generation (RAG) pipelines and reranking with a sustainability metric (Sustainability-Augmented Reranking, SAR) to bias LLM recommendations toward low-impact choices. | LLMs can be steered to recommend more sustainable options when the retrieval/reranking stage encodes explicit sustainability features, improving both relevance and eco-alignment. | Sustainability metric design is context sensitive; LLM outputs require verification to avoid factual errors and greenwashing.
+Personalized tourism recommendation model based on temporal multilayer sequential neural network | XueFei Xiao, 2024 | Proposed TMS-Net that segments tourist trajectories and models temporal patterns for personalized route recommendation, validated on large trajectory datasets. | Temporal multilayer models improve route personalization and handle long spatiotemporal spans, which is critical for realistic itinerary planning. | Focuses on personalization/accuracy; does not explicitly model carbon emissions or real-time congestion in the base formulation.
+Recommender systems for sustainability: overview and research issues | Alexander Felfernig, 2024 | Comprehensive review of RS approaches applied to sustainability problems across domains, identifying techniques (XAI, constraint reasoning) and open issues. | RS can be repurposed to promote sustainable choices but require explainability, multi-objective optimization, and domain-specific sustainability indicators. | Broad scope; specific operational recipes for tourism (carbon accounting, crowd control) require further applied research.
+High-Frequency Tourist Flow Forecasting with Gated Recurrent Units and Attention Mechanisms | Changlong Wang, 2025 | Uses high-frequency time-series models (GRU/LSTM variants) to predict short-term tourist flows at POIs, enabling near-real-time crowd management. | Accurate high-frequency forecasting materially helps operational crowd control and can feed planners/agents for congestion-aware routing. | Requires continuous, high-quality sensor or visitation data; performance drops if data gaps or seasonality shifts are severe.
+Multi-agent deep reinforcement learning based real-time planning (route/bus scheduling) | Binglin Wu, 2023 |  Multi-agent deep RL framework for real-time planning and routing with competing objectives (service level, cost); experiments on customized routing problems. | Multi-agent RL can coordinate decentralized planners to produce adaptive, near-optimal plans in dynamic environments — applicable to itinerary optimization under changing conditions. | High sample complexity and training cost; transfer from simulated environments to real world requires domain randomization and careful validation.
+
+=== SLIDE 7 ===
+Paper Title | Author & Year | Methodology | Inference | Limitations
+Tour: Recommending personalized itineraries for smart tourism | João Paulo Esper et al., 2025 | Itinerary recommendation integrated with Multi-access Edge Computing (MEC), optimizing POIs, preferences, and app constraints | Provides joint optimization of itineraries with resource awareness, suitable for real-time smart tourism apps | Focuses heavily on MEC resource allocation; limited validation in diverse tourism contexts
+Modeling sustainable city trips: integrating  emissions, popularity, and seasonality into tourism recommender systems | Ashmi Banerjee et al., 2024 | Builds a sustainability score combining emissions, popularity, and seasonality, tested in a recommender system | Shows how CO₂, demand, and popularity can be balanced in city trip planning | Evaluated only in urban tourism; does not address multi-day heritage itineraries
+A User Interface Study on Sustainable City Trip Recommendations | A Banerjee el at ,2024 | User study evaluating how sustainability labels and popularity info affect traveler decisions | Demonstrates that clear sustainability cues increase eco-friendly travel choices | Limited to UI factors; backend optimization for carbon/crowd not addressed
+Promoting sustainable tourism by recommending sequences of attractions with deep reinforcement learning | Anna Dalla Vecchia, 2023 | Applies DRL to generate sustainable itineraries considering context like time, weather, and congestion | Reinforcement learning effectively produces adaptive attraction sequences | High computation cost; requires extensive training data from real tourism scenarios
+Multi-objective fuzzy tourist trip design problem with heterogeneous preferences and sustainable itineraries | J Ruiz-Meza,2021 | Uses fuzzy logic and multi-objective optimization to balance heterogeneous tourist preferences | Handles uncertainty in user interests and provides flexible itinerary recommendations | Complexity increases with number of tourists; not optimized for real-time systems
+
+=== SLIDE 8 ===
+Paper Title | Author & Year | Methodology | Inference | Limitations
+Tourism demand forecasting using stacking ensemble model with adaptive fuzzy combiner | S Cankurt., 2022 | Ensemble ML model combining time series, fuzzy logic, and adaptive weights for prediction | Provides accurate demand forecasts for tourist flows | Focused on demand forecasting only; does not connect forecasts to actual itineraries
+Research on optimization of tourist attraction route planning through multiple big data | M Dong., 2024 | Combines POI data, road networks, and GA-PSO hybrid algorithm for route planning | Produces optimized travel routes based on big data patterns | Primarily emphasizes algorithmic optimization; lacks sustainability focus
+A carbon aware ant colony system for the sustainable generalized traveling salesman problem | Marina Lin., 2025 | Modified Ant Colony Optimization to include a carbon objective (bi-objective optimization) and tested on generalized TSP routing tasks to minimize CO₂ while preserving route quality | Carbon-aware metaheuristics can produce travel routes that trade small increases in distance/time for substantial reductions in emissions, suitable for transport-aware itinerary planning. | Focuses on routing/vehicle emissions only; does not integrate user preferences, site crowding, or multimodal door-to-door emissions
+Implementation of green tourism concept through a dynamic programming algorithm to select the best route of tourist travel | A Susanty, 2018 | Dynamic programming used to select routes minimizing CO₂ emissions | Offers eco-friendly route optimization framework | Simplistic assumptions; ignores dynamic crowd and weather conditions
+Use of the Multi-Agent Paradigm in Sustainable Tourism | M Husáková., 2023 | Multi-agent modeling applied to simulate stakeholder interactions in tourism | Shows value of agent-based systems for sustainability decision-making | Theoretical; limited case studies for practical validation
+
+=== SLIDE 9 ===
+No unified system combining personalization + sustainability + real-time adaptability
+Absence of agentic multi-agent coordination in tourism platforms
+Carbon emissions are rarely considered in itinerary optimization
+Lack of eco-conscious and user-adaptive heritage tourism planning
+
+=== SLIDE 10 ===
+Rapid growth in heritage tourism in India is causing unsustainable pressure on popular sites like Rajasthan’s forts, Hampi, and Khajuraho
+India ranks 4th globally in tourism-related carbon emissions due to high domestic travel demand.
+Existing systems lack integration of real-time carbon data, seasonal visitor load, and adaptive behavior modeling.
+Current recommendation tools fail to provide personalized, eco-conscious travel planning.
+There is a critical need for agentic AI-driven multi-agent systems to optimize itineraries while supporting conservation and community engagement.
+
+=== SLIDE 11 ===
+To create personalized user profiles and recommendations using Collaborative Filtering (SVD) and BERT embeddings for query encoding.
+To build a sustainable tourism model by minimizing carbon emissions using the Carbon Emission Equation and multi-objective optimization (NSGA-II)
+To generate optimized travel paths using Ant Colony Optimization (ACO) for efficient route discovery and iterative improvement..
+To develop an Agentic model–driven multi-agent system supporting adaptive itinerary planning.
+
+=== SLIDE 12 ===
+Pseudocode of Personalization Process for Heritage Site Recommendation
+
+=== SLIDE 13 ===
+MODULE-1: Web interface
+MODULE-2: Personalization
+MODULE-3: Sustainability and Impact Scoring
+MODULE-4: Itinerary Optimization
+MODULE-5: Planner agent 
+
+
+
+=== SLIDE 14 ===
+The web interface enables users to log in, manage their profiles, and enter travel preferences or past trips. 
+
+User credentials are verified through an authentication API, and valid users receive secure access tokens. 
+
+Input data is validated and stored across PostgreSQL, MongoDB, and Firebase databases for structured, semi-structured, and real-time data. 
+
+When needed, the system fetches the combined user profile from these databases and passes it to the personalization model to generate tailored heritage site recommendations.
+
+
+=== SLIDE 15 ===
+The personalization module uses user queries and preferences to process input and apply collaborative filtering with SVD decomposition. 
+
+It extracts latent features and generates candidate heritage sites. RoBERTa or DistilBERT models create embeddings to measure contextual similarity. 
+
+A score fusion layer combines similarity and collaborative scores to produce a ranked list of heritage site recommendations, which is then sent to the sustainability model for final evaluation and personalized travel suggestions.
+Start
+User Query +
+Preferences
+Input 
+Procesing
+Collabrative 
+filtering
+SVD
+Decomposition
+Latent Feature
+Extraction
+Candidate Heritage sites
+Ranked Recommonedation list
+Stop
+send to sustainability model
+BERT Embedding 
+Generation
+RoBERTa/
+DistillBERT
+Contextual similairity scoring
+Score fusion layer
+
+=== SLIDE 16 ===
+The sustainability module evaluates ranked heritage sites using extracted features like size and distance. 
+
+Multiple linear regression predicts each site’s impact, which is then analyzed using the TOPSIS multi-criteria decision-making method.
+ 
+This process generates sustainability scores that measure environmental and social effects. 
+
+The final sustainability scores are passed to the itinerary optimization model to ensure travel plans promote eco-friendly and balanced tourism choices.
+
+=== SLIDE 17 ===
+This flow shows how the system creates an optimized travel plan. First, heritage sites are ranked based on distance and sustainability.
+
+ These sites form a graph where travel paths are tested using the Ant Colony Algorithm. 
+
+The algorithm repeatedly finds better routes by updating “pheromone” levels, similar to how ants find the shortest path. 
+
+Finally, it selects the route with the least distance and highest sustainability, generating the best possible itinerary in JSON format.
+
+=== SLIDE 18 ===
+The Planner Agent acts as the central coordinator, combining insights from the Personalization, Sustainability, and Itinerary Optimization models.
+
+ It collects user data and preferences through the Web Interface, integrates ranked recommendations, sustainability scores, and optimized routes, and generates the final customized travel plan.
+
+By orchestrating data from all modules, the Planner Agent ensures that the final itinerary is not only personalized and efficient but also environmentally sustainable and aligned with user expectations.
+
+=== SLIDE 19 ===
+
+=== SLIDE 20 ===
+The system generated personalized, sustainability-aware heritage recommendations that aligned well with diverse user preferences.
+TOPSIS-based sustainability scoring successfully prioritized eco-friendly destinations without significantly reducing recommendation relevance.
+Ant Colony Optimization minimized travel distance and carbon impact while maintaining itinerary feasibility and efficiency.
+Multi-agent coordination enabled seamless integration of personalization, sustainability, and route optimization modules.
+
+
+=== SLIDE 21 ===
+Integrate real-time data such as weather, traffic, and crowd density for dynamic itinerary adaptation.
+Enhance multilingual itinerary generation by supporting more regional and international languages for broader inclusivity.
+Incorporate reinforcement learning to enable continuous improvement of recommendations based on user feedback.
+Add GPS-based mapping and live navigation to improve route accuracy and real-world travel feasibility.
+Integrate local tourism services, accommodations, and guides to build a complete smart tourism ecosystem.
+
+
+=== SLIDE 22 ===
+
+=== SLIDE 23 ===
+
+=== SLIDE 24 ===
+
+=== SLIDE 25 ===
+
+=== SLIDE 26 ===
+[1] Poonkuzhali, S., Archana Sangeetha J, Prem Anand, T.P (2023). Metaverse 3C: Concept, Components, and Challenges in Travel and Tourism Sector. In: 
+     Rajakumar, G., Du, KL., Rocha, Á. (eds) Intelligent Communication Technologies and Virtual Mobile Networks. ICICV 2023. Lecture Notes on Data Engineering 
+     and Communications Technologies, vol 171. Springer, Singapore
+
+[2] G.RatnaKanth and S.Poonkuzhali, “ Sentiment Classification of Indian Tourist Reviews Using Deep Learning  Techniques” in the Journal of Environmental 
+     Protection and Ecology – Vol 22. No 6.
+
+[3] Ratnakanth, G., Poonkuzhali, S. (2023). Indian Tourist Recommendation System Using Collaborative Filtering and Deep Autoencoder. In: Kaiser, M.S., Xie, J., 
+     Rathore, V.S. (eds) Information and Communication Technology for Competitive Strategies (ICTCS 2021). Lecture Notes in Networks and Systems, vol 401.     
+     Pp.341-356. Springer, Singapore.
+
+[4] De Paola, A., Gaglio, S., Giammanco, A., Lo Re, G., & Morana, M. (2021). A multi‐agent system for itinerary suggestion in smart environments. CAAI 
+     Transactions on Intelligence Technology, 6(4),
+
+[5] Lin, M., & Schaposnik, L. P. (2025). A carbon aware ant colony system for the sustainable generalized traveling salesman problem. Scientific Reports, 15(1).
+
+[6] Nguyen, L. V. (2024). OurSCARA: Awareness-Based Recommendation Services for Sustainable Tourism. World, 5(2).
+
+[7] Wallinger, S., Grundner, L., Majic, I., & Lampoltshammer, T. J. (2023, January). Agent-based modelling for sustainable tourism. In ENTER22 e-Tourism 
+     Conference (pp. 355-360). 
+
+[8] Halder, S., Lim, K. H., Chan, J., & Zhang, X. (2024). A survey on personalized itinerary recommendation: From optimisation to deep learning. Applied Soft 
+     Computing.
+
+[9] Banerjee, A., Satish, A., & Wörndl, W. Enhancing Tourism Recommender Systems for Sustainable City Trips Using Retrieval-Augmented Generation. arXiv   
+     2024.
+
+[10] Xiao, X., Li, C., Wang, X., & Zeng, A. (2025). Personalized tourism recommendation model based on temporal multilayer sequential neural network. Scientific 
+       Reports, 15(1).
+
+=== SLIDE 27 ===

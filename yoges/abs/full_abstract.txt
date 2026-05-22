@@ -1,0 +1,27 @@
+=== PARAGRAPHS ===
+RAJALAKSHMI ENGINEERING COLLEGE
+DEPARTMENT OF ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
+ IV YEAR PROJECT - ABSTRACT (2025-26)
+ SUPERVISOR                               REVIEWER                        PROJECT CO-ORDINATOR
+
+=== TABLES ===
+TITLE | 
+Sustainable Heritage Tourism in India: Agentic Multi-Agent AI for Context-Aware, Carbon-Minimized Itinerary Optimization.
+ | 
+Sustainable Heritage Tourism in India: Agentic Multi-Agent AI for Context-Aware, Carbon-Minimized Itinerary Optimization.
+
+TEAM MEMBERS  | 221501043
+221501507
+221501511 | HEENA MEHJABEEN K
+JAYA KARTHICK R
+YOGESWARAN S
+PROJECT MENTOR | Dr.S.Poonkuzhali | Dr.S.Poonkuzhali
+PROJECT ID | A002 | A002
+---
+
+ABSTRACT:
+
+India’s diverse cultural heritage and cuisine attract millions of tourists, but rising visitor numbers can cause overcrowding and environmental impact. The project presents an AI-powered system that helps travelers plan better, safer, and more eco-friendly trips. The system suggests personalized itineraries by selecting heritage sites and nearby food places based on the user's interests. It uses real-time data to check crowd levels and alerts users if a location is too crowded. A carbon emission checker compares different travel options (like train, car, or flight) and selects the most sustainable path. Basic machine learning models are used to predict crowd levels, while rule-based logic helps in choosing low-emission routes. The final output is a user-friendly travel plan that balances comfort, sustainability, and local experiences. The project promotes smart tourism by using AI to reduce carbon footprint, improve tourist flow, and enhance overall travel satisfaction in India’s heritage-rich destinations.
+
+
+---

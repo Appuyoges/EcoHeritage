@@ -1,0 +1,22 @@
+{
+    "transport_modes": {
+        "walking": 0.0,
+        "cycling": 0.0,
+        "electric_bus": 0.03,
+        "metro": 0.035,
+        "auto_rickshaw_cng": 0.045,
+        "train": 0.041,
+        "bus": 0.089,
+        "scooter": 0.09,
+        "car_shared": 0.12,
+        "car": 0.192,
+        "flight_short_haul": 0.255,
+        "flight_long_haul": 0.150
+    },
+    "sources": [
+        "UK Government GHG Conversion Factors 2023",
+        "India GHG Program",
+        "European Environment Agency"
+    ],
+    "units": "kg CO2e per passenger km"
+}
